@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Player\IdleAbility.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerStates.cs" />
     <Compile Include="Assets\Scripts\Player\MoveAbility.cs" />
+    <Compile Include="Assets\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Player\GatherInput.cs" />
   </ItemGroup>
