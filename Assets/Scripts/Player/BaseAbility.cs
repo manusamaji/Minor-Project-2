@@ -4,8 +4,10 @@ public class BaseAbility : MonoBehaviour
 {
     protected Player player;
 
-    protected GatherInput linkedInputs;
+    protected GatherInput linkedInput;
     protected StateMachine linkedStateMachine;
+    public PhysicsControl linkedPhysics;
+    protected Animator linkedAnimator;
 
     public PlayerStates.State thisAbilityState;
     public bool isPermitted = true;
@@ -31,14 +33,19 @@ public class BaseAbility : MonoBehaviour
     {
 
     }
+    public virtual void UpdateAnimator()
+    {
 
+    }
     protected virtual void Initialization()
     {
         player = GetComponent<Player>();
         if (player != null)
         {
-            linkedInputs = player.gatherInput;
-            linkedStateMachine = player.StateMachine;
+            linkedInput = player.gatherInput;
+            linkedStateMachine = player.stateMachine;
+            linkedPhysics = player.physicsControl;
+            linkedAnimator = player.anim;
         }
 
     }

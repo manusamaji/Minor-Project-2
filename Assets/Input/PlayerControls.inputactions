@@ -82,7 +82,7 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "1D Axis Secondary",
+                    "name": "arrow keys",
                     "id": "2a81bc7f-464a-4d54-a814-9eebb887a94b",
                     "path": "1DAxis",
                     "interactions": "",
@@ -107,6 +107,39 @@
                     "name": "positive",
                     "id": "980f4679-0ea2-402c-8e43-779e201ac17a",
                     "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Controller",
+                    "id": "0850ba44-2cb6-45b0-9166-e319520c155d",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "ede3af28-fc8e-4452-86ea-fd41b9ce5231",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "65ad2c3b-2bc3-47fa-b292-28b4ea579ca2",
+                    "path": "<Gamepad>/leftStick/right",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
