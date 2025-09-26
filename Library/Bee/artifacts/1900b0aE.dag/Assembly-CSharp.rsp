@@ -468,6 +468,7 @@
 "Assets/Scripts/Player/BaseAbility.cs"
 "Assets/Scripts/Player/GatherInput.cs"
 "Assets/Scripts/Player/IdleAbility.cs"
+"Assets/Scripts/Player/JumpAbility.cs"
 "Assets/Scripts/Player/MoveAbility.cs"
 "Assets/Scripts/Player/PhysicsControl.cs"
 "Assets/Scripts/Player/Player.cs"

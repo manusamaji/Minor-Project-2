@@ -8,7 +8,7 @@ public class GatherInput : MonoBehaviour
     private InputActionMap playerMap;
     private InputActionMap uiMap;
 
-    public InputActionReference jumpActionRef;
+    
     public InputActionReference moveActionRef;
 
     [HideInInspector]
@@ -16,24 +16,15 @@ public class GatherInput : MonoBehaviour
 
     private void OnEnable()
     {
-        jumpActionRef.action.performed += TryToJump;
-        jumpActionRef.action.canceled += StopJump;
+       
     }
     private void OnDisable()
     {
-        jumpActionRef.action.performed -= TryToJump;
-        jumpActionRef.action.canceled -= StopJump;
+       
 
         playerMap.Disable();
     }
-    private void TryToJump(InputAction.CallbackContext Value)
-    {
-        Debug.Log("JUMP");
-    }
-    private void StopJump(InputAction.CallbackContext Value)
-    {
-        Debug.Log("STOPJUMP");
-    }
+   
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

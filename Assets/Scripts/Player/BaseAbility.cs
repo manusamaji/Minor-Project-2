@@ -6,7 +6,7 @@ public class BaseAbility : MonoBehaviour
 
     protected GatherInput linkedInput;
     protected StateMachine linkedStateMachine;
-    public PhysicsControl linkedPhysics;
+    protected PhysicsControl linkedPhysics;
     protected Animator linkedAnimator;
 
     public PlayerStates.State thisAbilityState;

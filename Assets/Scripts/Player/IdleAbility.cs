@@ -4,6 +4,11 @@ public class IdleAbility : BaseAbility
 {
     public string idleAnimParameterName = "Idle";
     private int idleParameterInt;
+
+    public override void EnterAbility()
+    {
+        linkedPhysics.rb.linearVelocityX = 0;
+    }
     protected override void Initialization()
     {
         base.Initialization();
@@ -16,6 +21,7 @@ public class IdleAbility : BaseAbility
  
         if (linkedInput.horizontalInput != 0)
         {
+            player.Flip();
           linkedStateMachine.ChangeState(PlayerStates.State.Run);                                      
         }
     }
