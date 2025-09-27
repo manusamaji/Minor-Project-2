@@ -49,6 +49,17 @@
                     "isPartOfComposite": false
                 },
                 {
+                    "name": "",
+                    "id": "c9768a73-6fcb-45ed-a010-4ea1432cd55e",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
                     "name": "1D Axis",
                     "id": "c8ac3315-39a9-49bf-85cb-5d38f3072731",
                     "path": "1DAxis",

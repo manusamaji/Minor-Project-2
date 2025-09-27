@@ -34,5 +34,9 @@ public class PhysicsControl : MonoBehaviour
     void Update()
     {
         grounded = CheckGround();
+        if(CheckGround())
+        {
+            Debug.Log("touching ground");
+        }
     }
 }

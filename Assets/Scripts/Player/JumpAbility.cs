@@ -46,13 +46,15 @@ public class JumpAbility : BaseAbility
     }
     private void TryToJump(InputAction.CallbackContext Value)
     {
-      if(!isPermitted==false)
+      if(isPermitted==false)
             return;
       if (linkedPhysics.grounded)
         {
             linkedStateMachine.ChangeState(PlayerStates.State.Jump);
-            linkedPhysics.rb.linearVelocity=new Vector2(airSpeed*linkedInput.horizontalInput,jumpForce);
+            linkedPhysics.rb.AddForce(new Vector2(airSpeed * linkedInput.horizontalInput, jumpForce), ForceMode2D.Impulse);
+            //linkedPhysics.rb.linearVelocity=new Vector2(airSpeed*linkedInput.horizontalInput,jumpForce);
             minimumAirTime = startMinimumAirTime;
+            Debug.Log("JUMP Bwworkin um");
         }
     }
     private void StopJump(InputAction.CallbackContext Value)
