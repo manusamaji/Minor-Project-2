@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PhysicsControl : MonoBehaviour
@@ -11,6 +12,28 @@ public class PhysicsControl : MonoBehaviour
     public bool grounded;
     private RaycastHit2D hitInfoLeft;
     private RaycastHit2D hitInfoRight;
+
+    [Header("Wall")]
+    [SerializeField] private float wallRayDistance;
+    [SerializeField] private Transform wallCheckPointUpper;
+    [SerializeField] private Transform wallCheckPointLower;
+    public bool wallDetected;
+    private RaycastHit2D hitInfoWallUpper;
+    private RaycastHit2D hitInfoWallLower;
+    internal int horizontalInput;
+
+    private bool CheckWall()
+    {
+        hitInfoWallUpper = Physics2D.Raycast(wallCheckPointUpper.position, transform.right, wallRayDistance, whatToDetect);
+        hitInfoWallLower = Physics2D.Raycast(wallCheckPointLower.position, transform.right, wallRayDistance, whatToDetect);
+        Debug.DrawRay(wallCheckPointUpper.position,new Vector3(wallRayDistance,0,0),Color.red);
+        Debug.DrawRay(wallCheckPointLower.position, new Vector3(wallRayDistance, 0, 0), Color.red);
+
+        if (hitInfoWallUpper || hitInfoWallLower)
+            return true;
+        return false;
+    }
+
 
     private bool CheckGround()
     {
@@ -38,5 +61,10 @@ public class PhysicsControl : MonoBehaviour
         {
             Debug.Log("touching ground");
         }
+    }
+    private void FixedUpdate()
+    {
+        grounded=CheckGround();
+        wallDetected = CheckWall();
     }
 }

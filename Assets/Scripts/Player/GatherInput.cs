@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 
 public class GatherInput : MonoBehaviour
 {
+
     public PlayerInput playerInput;
     private InputActionMap playerMap;
     private InputActionMap uiMap;
@@ -13,6 +14,7 @@ public class GatherInput : MonoBehaviour
 
     [HideInInspector]
     public float horizontalInput;
+
 
     private void OnEnable()
     {

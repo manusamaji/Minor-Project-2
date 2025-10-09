@@ -36,6 +36,13 @@ public class JumpAbility : BaseAbility
         {
             linkedStateMachine.ChangeState(PlayerStates.State.Idle);
         }
+        if(!linkedPhysics.grounded && linkedPhysics.wallDetected)
+        {
+            if (linkedPhysics.rb.linearVelocityY < 0)
+            {
+                linkedStateMachine.currentState = (PlayerStates.State.WallSlide);
+            }
+        }
     }
     public override void ProcessFixedAbility()
     {
@@ -60,5 +67,10 @@ public class JumpAbility : BaseAbility
     private void StopJump(InputAction.CallbackContext Value)
     {
         Debug.Log("STOPJUMP");
+    }
+    public override void UpdateAnimator()
+    {
+        //linkedAnimator.SetBool(jumpParameterID, linkedStateMachine.currentState ==  PlayerStates.State.Jump || linkedStateMachine.currentState != PlayerStates.State.Jump);
+        //linkedAnimator.SetFloat(ySpeedParameterID, linkedPhysics.rb.linearVelocityY);
     }
 }

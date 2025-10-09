@@ -478,6 +478,8 @@
 "Assets/Scripts/Player/Player.cs"
 "Assets/Scripts/Player/PlayerStates.cs"
 "Assets/Scripts/Player/StateMachine.cs"
+"Assets/Scripts/Player/WallJumpAbility.cs"
+"Assets/Scripts/Player/WallSlideAbility.cs"
 -langversion:9.0
 /deterministic
 /optimize+
