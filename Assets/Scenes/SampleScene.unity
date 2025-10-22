@@ -142,6 +142,7 @@ GameObject:
   - component: {fileID: 50975870}
   - component: {fileID: 50975871}
   - component: {fileID: 50975872}
+  - component: {fileID: 50975873}
   m_Layer: 3
   m_Name: 'Player '
   m_TagString: Untagged
@@ -501,6 +502,23 @@ MonoBehaviour:
   thisAbilityState: 5
   isPermitted: 1
   maxSlideSpeed: 0.5
+--- !u!114 &50975873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50975856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35035ad07997fa740a05133df55d2f82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DashAbility
+  thisAbilityState: 6
+  isPermitted: 1
+  dashActionRef: {fileID: -1413202761582753614, guid: c21c00094cccfb84fb4e3febe4eedcea, type: 3}
+  dashForce: 15
+  maxDashDuration: 0.3
 --- !u!1 &97173205
 GameObject:
   m_ObjectHideFlags: 0

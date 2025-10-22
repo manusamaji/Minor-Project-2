@@ -22,6 +22,11 @@ public class PhysicsControl : MonoBehaviour
     private RaycastHit2D hitInfoWallLower;
     internal int horizontalInput;
 
+    private float gravityValue;
+    void Start()
+    {
+        gravityValue = rb.gravityScale;
+    }
     private bool CheckWall()
     {
         hitInfoWallUpper = Physics2D.Raycast(wallCheckPointUpper.position, transform.right, wallRayDistance, whatToDetect);
@@ -48,10 +53,7 @@ public class PhysicsControl : MonoBehaviour
             return true;
         return false;
     }
-    void Start()
-    {
-        
-    }
+  
 
     // Update is called once per frame
     void Update()
@@ -62,6 +64,19 @@ public class PhysicsControl : MonoBehaviour
             Debug.Log("touching ground");
         }
     }
+    public void DisableGravity()
+    {
+        rb.gravityScale = 0;
+    }
+    public void EnableGravity()
+    {
+        rb.gravityScale=gravityValue;
+    }
+    public void ResetVelocity()
+    {
+        rb.linearVelocity=Vector2.zero;
+    }
+
     private void FixedUpdate()
     {
         grounded=CheckGround();

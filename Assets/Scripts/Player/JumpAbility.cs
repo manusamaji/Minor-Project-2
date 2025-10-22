@@ -11,10 +11,18 @@ public class JumpAbility : BaseAbility
     [SerializeField] private float minimumAirTime;
     private float startMinimumAirTime;
 
+    private string jumpAnimParameterName = "Jump";
+    private string ySpeedAnimParameterName = "ySpeed";
+    private int jumpParameterID;
+    private int ySpeedParameterID;
+
+
     protected override void Initialization()
     {
         base.Initialization();
         startMinimumAirTime = minimumAirTime;
+        jumpParameterID = Animator.StringToHash(jumpAnimParameterName);
+        ySpeedParameterID=Animator.StringToHash(ySpeedAnimParameterName);
     }
     private void OnEnable()
     {
@@ -59,7 +67,7 @@ public class JumpAbility : BaseAbility
         {
             linkedStateMachine.ChangeState(PlayerStates.State.Jump);
             linkedPhysics.rb.AddForce(new Vector2(airSpeed * linkedInput.horizontalInput, jumpForce), ForceMode2D.Impulse);
-            //linkedPhysics.rb.linearVelocity=new Vector2(airSpeed*linkedInput.horizontalInput,jumpForce);
+            linkedPhysics.rb.linearVelocity=new Vector2(airSpeed*linkedInput.horizontalInput,jumpForce);
             minimumAirTime = startMinimumAirTime;
             Debug.Log("JUMP Bwworkin um");
         }
@@ -70,7 +78,7 @@ public class JumpAbility : BaseAbility
     }
     public override void UpdateAnimator()
     {
-        //linkedAnimator.SetBool(jumpParameterID, linkedStateMachine.currentState ==  PlayerStates.State.Jump || linkedStateMachine.currentState != PlayerStates.State.Jump);
-        //linkedAnimator.SetFloat(ySpeedParameterID, linkedPhysics.rb.linearVelocityY);
+        linkedAnimator.SetBool(jumpParameterID, linkedStateMachine.currentState ==  PlayerStates.State.Jump || linkedStateMachine.currentState != PlayerStates.State.Jump);
+        linkedAnimator.SetFloat(ySpeedParameterID, linkedPhysics.rb.linearVelocityY);
     }
 }
