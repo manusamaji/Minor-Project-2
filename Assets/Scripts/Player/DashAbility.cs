@@ -8,6 +8,16 @@ public class DashAbility : BaseAbility
     [SerializeField] private float maxDashDuration;
     private float dashTimer;
 
+    private string dashAnimParamterName = "Dash";
+    private int dashParamterID;
+
+
+    protected override void Initialization()
+    {
+        base.Initialization();
+        dashParamterID = Animator.StringToHash(dashAnimParamterName);
+    }
+
     private void OnEnable()
     {
         dashActionRef.action.performed += TryToDash;
@@ -55,6 +65,11 @@ public class DashAbility : BaseAbility
             else
                 linkedStateMachine.ChangeState(PlayerStates.State.Jump);
         }
+    }
+
+    public override void UpdateAnimator()
+    {
+        linkedAnimator.SetBool(dashParamterID, linkedStateMachine.currentState==PlayerStates.State.Dash);
     }
 
 }
