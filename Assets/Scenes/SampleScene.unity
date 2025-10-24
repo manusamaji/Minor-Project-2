@@ -164,7 +164,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GatherInputs
   playerInput: {fileID: 50975859}
   moveActionRef: {fileID: 4385969005100269601, guid: c21c00094cccfb84fb4e3febe4eedcea, type: 3}
+  VerticleActionRef: {fileID: -4901717363438672564, guid: c21c00094cccfb84fb4e3febe4eedcea, type: 3}
   horizontalInput: 0
+  verticalInput: 0
 --- !u!114 &50975859
 MonoBehaviour:
   m_ObjectHideFlags: 0

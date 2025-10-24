@@ -78,7 +78,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 125
+  controlID: 98
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -495,7 +495,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Player
+    - Assets/Player/Root Games- Unity 6 Game Dev Journey/Player_Main_Animations
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -505,16 +505,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Player
+  - Assets/Player/Root Games- Unity 6 Game Dev Journey/Player_Main_Animations
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\jbman\Music\Minor project 2\Minor-Project-2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a2be0000
-    m_LastClickedID: 48802
-    m_ExpandedIDs: 000000003abd00003cbd0000
+    scrollPos: {x: 0, y: 120}
+    m_SelectedIDs: 06c60000
+    m_LastClickedID: 50694
+    m_ExpandedIDs: 0000000044bd000046bd0000a0be00005ac90000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -543,7 +543,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003abd00003cbd0000
+    m_ExpandedIDs: 0000000044bd000046bd0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -572,7 +572,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000fcb1000018b0000076bf00003e9600003cba000016ba0000f0c000006cb40000ccba0000d8ba0000
+    m_ExpandedInstanceIDs: c6230000fcb1000018b0000076bf00003e9600003cba000016ba0000f0c000006cb40000ccba0000d8ba0000dcba0000
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -672,7 +672,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e8bc0000
+      m_SelectedIDs: 3acb0000
       m_LastClickedID: 0
       m_ExpandedIDs: 00fbffff
       m_RenameOverlay:
@@ -1292,9 +1292,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -1.8326641, y: -2.7963998, z: 0.08775402}
+    m_Target: {x: -4.350462, y: -3.4574487, z: 0.04346276}
     speed: 2
-    m_Value: {x: -1.8326641, y: -2.7963998, z: 0.08775402}
+    m_Value: {x: -4.350462, y: -3.4574487, z: 0.04346276}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1344,9 +1344,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 2.8381433
+    m_Target: 7.257147
     speed: 2
-    m_Value: 2.8381433
+    m_Value: 7.257147
   m_Ortho:
     m_Target: 1
     speed: 2
