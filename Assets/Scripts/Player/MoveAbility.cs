@@ -21,7 +21,7 @@ public class MoveAbility : BaseAbility
     {
         Vector2 movementVector = new Vector2(speed * linkedInput.horizontalInput, linkedPhysics.rb.linearVelocityY);
         linkedPhysics.rb.AddForce(movementVector);
-        //linkedPhysics.rb.linearVelocity = new Vector2(speed * linkedInput.horizontalInput, linkedPhysics.rb.linearVelocityY);
+        linkedPhysics.rb.linearVelocity = new Vector2(speed * linkedInput.horizontalInput, linkedPhysics.rb.linearVelocityY);
         Debug.Log($"Input = {linkedInput.horizontalInput} || Linear Velo Sent to Physics Object = {linkedPhysics.rb.linearVelocity}");
     }
     public override void UpdateAnimator()

@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\Player\JumpAbility.cs" />
     <Compile Include="Assets\Scripts\Player\BaseAbility.cs" />
     <Compile Include="Assets\Scripts\Player\DashAbility.cs" />
+    <Compile Include="Assets\Scripts\Player\CrouchAbility.cs" />
     <Compile Include="Assets\Scripts\Player\PhysicsControl.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
   </ItemGroup>

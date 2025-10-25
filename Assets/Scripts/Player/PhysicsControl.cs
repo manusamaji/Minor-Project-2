@@ -22,6 +22,12 @@ public class PhysicsControl : MonoBehaviour
     private RaycastHit2D hitInfoWallLower;
     internal int horizontalInput;
 
+    [Header("Colliders")]
+    [SerializeField] private Collider2D standColl;
+    [SerializeField] private Collider2D crouchColl;
+
+
+
     private float gravityValue;
     void Start()
     {
@@ -77,6 +83,16 @@ public class PhysicsControl : MonoBehaviour
         rb.linearVelocity=Vector2.zero;
     }
 
+    public void StandColliders()
+    {
+        standColl.enabled = true;
+        crouchColl.enabled = false;
+    }
+    public void CrouchColliders()
+    {
+        standColl.enabled=false;
+        crouchColl.enabled=true;
+    }
     private void FixedUpdate()
     {
         grounded=CheckGround();
