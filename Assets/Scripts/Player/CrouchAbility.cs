@@ -16,12 +16,12 @@ public class CrouchAbility : BaseAbility
     private void OnEnable()
     {
         crouchActionRef.action.performed += TrytoCrouch;
-        crouchActionRef.action.performed += StopCrouch;
+        crouchActionRef.action.canceled += StopCrouch;
     }
     private void OnDisable()
     {
         crouchActionRef.action.performed -= TrytoCrouch;
-        crouchActionRef.action.performed -= StopCrouch;
+        crouchActionRef.action.canceled -= StopCrouch;
     }
     public override void EnterAbility()
     {
