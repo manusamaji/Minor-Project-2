@@ -559,7 +559,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.08428842}
+  m_Offset: {x: -0.028807342, y: -0.058682084}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -569,7 +569,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.77, y: 1.43}
+  m_Size: {x: 0.82761467, y: 1.3787873}
   m_EdgeRadius: 0
 --- !u!114 &50975875
 MonoBehaviour:
@@ -586,6 +586,7 @@ MonoBehaviour:
   thisAbilityState: 7
   isPermitted: 1
   crouchActionRef: {fileID: 6002226201811840408, guid: c21c00094cccfb84fb4e3febe4eedcea, type: 3}
+  crouchSpeed: 0
 --- !u!1 &97173205
 GameObject:
   m_ObjectHideFlags: 0

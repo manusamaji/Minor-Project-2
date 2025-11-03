@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 public class CrouchAbility : BaseAbility
 {
     public InputActionReference crouchActionRef;
+    [SerializeField] private float crouchSpeed;
     private string crouchParameterName = "Crouch";
     private int crouchParameterID;
 
@@ -54,6 +55,17 @@ public class CrouchAbility : BaseAbility
         else 
             if (linkedInput.horizontalInput==0)
             linkedStateMachine.ChangeState(PlayerStates.State.Run);
+    }
+    public override void ProcessAbility()
+    {
+        player.Flip();
+        if (linkedPhysics.grounded == false)
+            linkedStateMachine.ChangeState(PlayerStates.State.Jump);
+    }
+    public override void ProcessFixedAbility()
+    {
+        if (linkedPhysics.grounded)
+            linkedPhysics.rb.linearVelocity = new Vector2(linkedPhysics.horizontalInput * crouchSpeed, linkedPhysics.rb.linearVelocityY);
     }
     public override void UpdateAnimator()
     {

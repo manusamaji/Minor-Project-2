@@ -23,8 +23,8 @@ m_EmbeddedPackageManifests:
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 638966833510000000
-      m_Hash: 38665444
+        ticks: 638971853240000000
+      m_Hash: 934050575
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/jbman/Music/Minor project 2/Minor-Project-2/Packages
@@ -370,10 +370,12 @@ m_ResolvedPackages:
     - 2.9.2
     - 2.9.3
     - 2.10.0
+    - 2.10.1
     compatible:
     - 2.9.2
     - 2.9.3
     - 2.10.0
+    - 2.10.1
     recommended: 2.9.3
     deprecated: []
   dependencies: []
@@ -4348,7 +4350,7 @@ m_ResolvedPackages:
 - packageId: com.bezi.sidekick@file:C:\Users\jbman\Music\Minor project 2\Minor-Project-2\Packages\com.bezi.sidekick
   testable: 1
   isDirectDependency: 1
-  version: 0.52.2
+  version: 0.53.0
   source: 3
   resolvedPath: C:\Users\jbman\Music\Minor project 2\Minor-Project-2\Packages\com.bezi.sidekick
   assetPath: Packages/com.bezi.sidekick
@@ -4470,9 +4472,11 @@ m_ResolvedPackages:
     - 3.1.0
     - 3.2.0
     - 3.2.1
+    - 3.2.2
     compatible:
     - 3.2.1
-    recommended: 3.2.1
+    - 3.2.2
+    recommended: 3.2.2
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -4490,7 +4494,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638186318800000000
   documentationUrl: 
@@ -7057,12 +7061,14 @@ m_ResolvedPackages:
     - 2.6.0-pre.3
     - 2.6.0-pre.4
     - 2.6.2
+    - 2.6.3
     compatible:
     - 2.5.7
     - 2.6.0-exp.2
     - 2.6.0-pre.3
     - 2.6.0-pre.4
     - 2.6.2
+    - 2.6.3
     recommended: 2.5.7
     deprecated: []
   dependencies:
