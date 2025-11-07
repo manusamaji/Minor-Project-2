@@ -48,9 +48,9 @@ public class CrouchAbility : BaseAbility
         if (!isPermitted)
         return;
 
-        if(linkedStateMachine.currentState!=PlayerStates.State.Crouch)
+        if(linkedStateMachine.currentState != PlayerStates.State.Crouch)
             return;
-        if (linkedPhysics.horizontalInput==0)
+        if (linkedPhysics.horizontalInput ==0)
             linkedStateMachine.ChangeState(PlayerStates.State.Idle);
         else 
             if (linkedInput.horizontalInput==0)
@@ -59,8 +59,6 @@ public class CrouchAbility : BaseAbility
     public override void ProcessAbility()
     {
         player.Flip();
-        if (linkedPhysics.grounded == false)
-            linkedStateMachine.ChangeState(PlayerStates.State.Jump);
     }
     public override void ProcessFixedAbility()
     {

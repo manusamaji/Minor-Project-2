@@ -23,8 +23,8 @@ m_EmbeddedPackageManifests:
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 638971853240000000
-      m_Hash: 934050575
+        ticks: 638980700410000000
+      m_Hash: 4219593299
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/jbman/Music/Minor project 2/Minor-Project-2/Packages
@@ -4350,12 +4350,12 @@ m_ResolvedPackages:
 - packageId: com.bezi.sidekick@file:C:\Users\jbman\Music\Minor project 2\Minor-Project-2\Packages\com.bezi.sidekick
   testable: 1
   isDirectDependency: 1
-  version: 0.53.0
+  version: 0.55.4
   source: 3
   resolvedPath: C:\Users\jbman\Music\Minor project 2\Minor-Project-2\Packages\com.bezi.sidekick
   assetPath: Packages/com.bezi.sidekick
   name: com.bezi.sidekick
-  displayName: Bezi Sidekick
+  displayName: Bezi Plugin
   author:
     name: Bezi
     email: 
@@ -4395,7 +4395,7 @@ m_ResolvedPackages:
     licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
-  documentationUrl: 
+  documentationUrl: https://docs.bezi.com/
   hasRepository: 0
   repository:
     type: 
