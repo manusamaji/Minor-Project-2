@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 public class CrouchAbility : BaseAbility
 {
     public InputActionReference crouchActionRef;
-    [SerializeField] private float crouchSpeed;
+    [SerializeField] private float crouchSpeed = 5f;
     private string crouchParameterName = "Crouch";
     private int crouchParameterID;
 
@@ -59,6 +59,8 @@ public class CrouchAbility : BaseAbility
     public override void ProcessAbility()
     {
         player.Flip();
+        if (linkedPhysics.grounded == false) 
+            linkedStateMachine.ChangeState(PlayerStates.State.Crouch);
     }
     public override void ProcessFixedAbility()
     {
