@@ -447,6 +447,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PhysicControl
   rb: {fileID: 50975861}
+  coyoteSetTime: 0.1
+  coyoteTimer: 0
   groundRayDistance: 0.1
   leftGroundPoint: {fileID: 120419724}
   rightGroundPoint: {fileID: 1687890288}

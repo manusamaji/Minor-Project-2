@@ -62,7 +62,7 @@ public class CrouchAbility : BaseAbility
             wantToStop=true;
             return;
         }
-        if (linkedPhysics.horizontalInput ==0)
+        if (linkedInput.horizontalInput ==0)
             linkedStateMachine.ChangeState(PlayerStates.State.Idle);
         else 
             if (linkedInput.horizontalInput!=0)
@@ -73,7 +73,7 @@ public class CrouchAbility : BaseAbility
         player.Flip();
         if (wantToStop && linkedPhysics.ceilingDetected == false)
         {
-            if (linkedPhysics.horizontalInput == 0)
+            if (linkedInput.horizontalInput == 0)
                 linkedStateMachine.ChangeState(PlayerStates.State.Idle);
             else
            if (linkedInput.horizontalInput != 0)
@@ -85,7 +85,7 @@ public class CrouchAbility : BaseAbility
     public override void ProcessFixedAbility()
     {
         if (linkedPhysics.grounded)
-            linkedPhysics.rb.linearVelocity = new Vector2(linkedPhysics.horizontalInput * crouchSpeed, linkedPhysics.rb.linearVelocityY);
+            linkedPhysics.rb.linearVelocity = new Vector2(linkedInput.horizontalInput * crouchSpeed, linkedPhysics.rb.linearVelocityY);
     }
     public override void UpdateAnimator()
     {

@@ -1,9 +1,16 @@
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 
 public class PhysicsControl : MonoBehaviour
 {
     public Rigidbody2D rb;
+
+    [Header("Coyote Time")]
+    [SerializeField] private float coyoteSetTime;
+    public float coyoteTimer;
+
     [Header("Ground")]
     [SerializeField] private float groundRayDistance;
     [SerializeField] private Transform leftGroundPoint;
@@ -20,7 +27,7 @@ public class PhysicsControl : MonoBehaviour
     public bool wallDetected;
     private RaycastHit2D hitInfoWallUpper;
     private RaycastHit2D hitInfoWallLower;
-    internal int horizontalInput;
+    //internal int horizontalInput;
 
     [Header("Ceiling")]
     [SerializeField] private float CeilingRayDistance;
@@ -41,6 +48,7 @@ public class PhysicsControl : MonoBehaviour
     void Start()
     {
         gravityValue = rb.gravityScale;
+        coyoteTimer= coyoteSetTime;
     }
 
     private void OnDrawGizmos()
@@ -89,14 +97,7 @@ public class PhysicsControl : MonoBehaviour
   
 
     // Update is called once per frame
-    void Update()
-    {
-        grounded = CheckGround();
-        if(CheckGround())
-        {
-            Debug.Log("touching ground");
-        }
-    }
+   
     public void DisableGravity()
     {
         rb.gravityScale = 0;
@@ -120,6 +121,18 @@ public class PhysicsControl : MonoBehaviour
         standColl.enabled=false;
         crouchColl.enabled=true;
     }
+    void Update()
+    {
+        if(!grounded) 
+        {
+            coyoteTimer-= Time.deltaTime;
+        }
+        else
+        {
+            coyoteTimer= Time.deltaTime;
+        }
+    }
+
     private void FixedUpdate()
     {
         grounded=CheckGround();

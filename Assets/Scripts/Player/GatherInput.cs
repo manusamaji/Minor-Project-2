@@ -41,8 +41,13 @@ public class GatherInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontalInput = moveActionRef.action.ReadValue<float>();
+        horizontalInput = VerticleActionRef.action.ReadValue<float>();
         verticalInput = moveActionRef.action.ReadValue<float>();
+
+        horizontalInput = moveActionRef.action.ReadValue<float>();
+        verticalInput = VerticleActionRef.action.ReadValue<float>();
+
+
         Debug.Log("Horizontal Input: " + horizontalInput);
     }
 }
