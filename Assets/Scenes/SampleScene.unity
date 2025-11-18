@@ -458,6 +458,10 @@ MonoBehaviour:
   wallCheckPointUpper: {fileID: 150223230}
   wallCheckPointLower: {fileID: 2119697922}
   wallDetected: 0
+  CeilingRayDistance: 0.2
+  ceilingCheckPointLeft: {fileID: 1203747500}
+  ceilingCheckPointRight: {fileID: 415909011}
+  ceilingDetected: 0
   standColl: {fileID: 50975860}
   crouchColl: {fileID: 50975874}
 --- !u!114 &50975870
@@ -534,7 +538,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 50975856}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}

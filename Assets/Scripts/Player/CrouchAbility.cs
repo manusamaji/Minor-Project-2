@@ -8,10 +8,15 @@ public class CrouchAbility : BaseAbility
     private string crouchParameterName = "Crouch";
     private int crouchParameterID;
 
+    private string xSpeedParameterName = "xSpeed";
+    private int xSpeedParameterID;
+
+    private bool wantToStop;
     protected override void Initialization()
     {
         base.Initialization();
         crouchParameterID=Animator.StringToHash(crouchParameterName);
+        xSpeedParameterID=Animator.StringToHash(xSpeedParameterName);
     }
 
     private void OnEnable()
@@ -31,6 +36,7 @@ public class CrouchAbility : BaseAbility
 
     public override void ExitAbility()
     {
+        wantToStop = false;
         linkedPhysics.StandColliders();
     }
 
@@ -40,6 +46,7 @@ public class CrouchAbility : BaseAbility
             return;
         if(linkedPhysics.grounded==false || linkedStateMachine.currentState==PlayerStates.State.Dash || linkedStateMachine.currentState==PlayerStates.State.Ladders)
             return;
+        wantToStop = false;
         linkedStateMachine.ChangeState(PlayerStates.State.Crouch);
     }
 
@@ -50,15 +57,28 @@ public class CrouchAbility : BaseAbility
 
         if(linkedStateMachine.currentState != PlayerStates.State.Crouch)
             return;
+        if (linkedPhysics.ceilingDetected)
+        {
+            wantToStop=true;
+            return;
+        }
         if (linkedPhysics.horizontalInput ==0)
             linkedStateMachine.ChangeState(PlayerStates.State.Idle);
         else 
-            if (linkedInput.horizontalInput==0)
+            if (linkedInput.horizontalInput!=0)
             linkedStateMachine.ChangeState(PlayerStates.State.Run);
     }
     public override void ProcessAbility()
     {
         player.Flip();
+        if (wantToStop && linkedPhysics.ceilingDetected == false)
+        {
+            if (linkedPhysics.horizontalInput == 0)
+                linkedStateMachine.ChangeState(PlayerStates.State.Idle);
+            else
+           if (linkedInput.horizontalInput != 0)
+                linkedStateMachine.ChangeState(PlayerStates.State.Run);
+        }
         if (linkedPhysics.grounded == false) 
             linkedStateMachine.ChangeState(PlayerStates.State.Crouch);
     }
@@ -70,6 +90,7 @@ public class CrouchAbility : BaseAbility
     public override void UpdateAnimator()
     {
         linkedAnimator.SetBool(crouchParameterID, linkedStateMachine.currentState == PlayerStates.State.Crouch);
+        linkedAnimator.SetFloat(xSpeedParameterID, Mathf.Abs( linkedPhysics.rb.linearVelocityX));
 
     }
 }

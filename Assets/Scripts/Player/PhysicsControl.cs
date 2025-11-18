@@ -22,6 +22,15 @@ public class PhysicsControl : MonoBehaviour
     private RaycastHit2D hitInfoWallLower;
     internal int horizontalInput;
 
+    [Header("Ceiling")]
+    [SerializeField] private float CeilingRayDistance;
+    [SerializeField] private Transform ceilingCheckPointLeft;
+    [SerializeField] private Transform ceilingCheckPointRight;
+
+    public bool ceilingDetected;
+    private RaycastHit2D hitInfoCeilingLeft;
+    private RaycastHit2D hitInfoCeilingRight;
+
     [Header("Colliders")]
     [SerializeField] private Collider2D standColl;
     [SerializeField] private Collider2D crouchColl;
@@ -33,6 +42,24 @@ public class PhysicsControl : MonoBehaviour
     {
         gravityValue = rb.gravityScale;
     }
+
+    private void OnDrawGizmos()
+    {
+        Debug.DrawRay(ceilingCheckPointLeft.position, new Vector3(0,CeilingRayDistance, 0));
+        Debug.DrawRay(ceilingCheckPointRight.position, new Vector3(0,CeilingRayDistance, 0));
+    }
+
+
+    private bool CheckCeiling()
+    {
+        hitInfoCeilingLeft = Physics2D.Raycast(ceilingCheckPointLeft.position, Vector2.up, CeilingRayDistance, whatToDetect);
+        hitInfoCeilingRight = Physics2D.Raycast(ceilingCheckPointRight.position, Vector2.up, CeilingRayDistance, whatToDetect);
+        if (hitInfoCeilingLeft||hitInfoCeilingRight)
+            return true;
+        return false;
+    }
+
+
     private bool CheckWall()
     {
         hitInfoWallUpper = Physics2D.Raycast(wallCheckPointUpper.position, transform.right, wallRayDistance, whatToDetect);
@@ -97,5 +124,7 @@ public class PhysicsControl : MonoBehaviour
     {
         grounded=CheckGround();
         wallDetected = CheckWall();
+        ceilingDetected = CheckCeiling();
+
     }
 }
