@@ -27,7 +27,7 @@ public class WallJumpAbility : BaseAbility
     private void TrytoWallJump(InputAction.CallbackContext value)
     {
 
-        if (!isPermitted)
+        if (!isPermitted )
             return;
 
         if (EvaluateWallJumpConditions())

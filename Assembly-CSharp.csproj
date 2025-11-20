@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\Player\IdleAbility.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerStates.cs" />
     <Compile Include="Assets\Scripts\Player\MoveAbility.cs" />
+    <Compile Include="Assets\Scripts\Traps\Spikes.cs" />
     <Compile Include="Assets\Scripts\Player\WallJumpAbility.cs" />
     <Compile Include="Assets\Scripts\Player\WallSlideAbility.cs" />
     <Compile Include="Assets\Scripts\Player\GatherInput.cs" />
@@ -72,8 +73,10 @@
     <Compile Include="Assets\Scripts\Player\BaseAbility.cs" />
     <Compile Include="Assets\Scripts\Player\DashAbility.cs" />
     <Compile Include="Assets\Scripts\Player\CrouchAbility.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerStats.cs" />
     <Compile Include="Assets\Scripts\Player\PhysicsControl.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
+    <Compile Include="Assets\Scripts\Player\KnockBackAbility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Player\Root Games- Unity 6 Game Dev Journey\Sounds\SFX\Attributions.txt" />

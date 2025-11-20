@@ -476,13 +476,16 @@
 "Assets/Scripts/Player/GatherInput.cs"
 "Assets/Scripts/Player/IdleAbility.cs"
 "Assets/Scripts/Player/JumpAbility.cs"
+"Assets/Scripts/Player/KnockBackAbility.cs"
 "Assets/Scripts/Player/MoveAbility.cs"
 "Assets/Scripts/Player/PhysicsControl.cs"
 "Assets/Scripts/Player/Player.cs"
 "Assets/Scripts/Player/PlayerStates.cs"
+"Assets/Scripts/Player/PlayerStats.cs"
 "Assets/Scripts/Player/StateMachine.cs"
 "Assets/Scripts/Player/WallJumpAbility.cs"
 "Assets/Scripts/Player/WallSlideAbility.cs"
+"Assets/Scripts/Traps/Spikes.cs"
 -langversion:9.0
 /deterministic
 /optimize+

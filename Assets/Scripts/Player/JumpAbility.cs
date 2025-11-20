@@ -61,7 +61,7 @@ public class JumpAbility : BaseAbility
     }
     private void TryToJump(InputAction.CallbackContext Value)
     {
-      if(isPermitted==false)
+      if(isPermitted==false )
             return;
       if (linkedPhysics.grounded)
         {

@@ -36,7 +36,7 @@ public class DashAbility : BaseAbility
 
     private void TryToDash(InputAction.CallbackContext value)
     {
-        if(!isPermitted)
+        if(!isPermitted )
             return;
         //other condition
         if (linkedStateMachine.currentState == PlayerStates.State.Dash || linkedPhysics.wallDetected || linkedStateMachine.currentState==PlayerStates.State.Crouch)
