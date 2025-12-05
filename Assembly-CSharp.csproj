@@ -77,6 +77,7 @@
     <Compile Include="Assets\Scripts\Player\PhysicsControl.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Player\KnockBackAbility.cs" />
+    <Compile Include="Assets\Scripts\ui\HealthBarControl.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Player\Root Games- Unity 6 Game Dev Journey\Sounds\SFX\Attributions.txt" />

@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerStats : MonoBehaviour
 {
     [SerializeField] private Player player;
+    [SerializeField] private HealthBarControl healthBarControl;
     [SerializeField] private float maxHealth;
      float currentHealth;
 
@@ -10,11 +11,13 @@ public class PlayerStats : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
+        healthBarControl.SetSliderValue(currentHealth, maxHealth);
     }
 
     public void DamagePlayer(float damage)
     {
         currentHealth -= damage;
+        healthBarControl.SetSliderValue(currentHealth,maxHealth);
         if (currentHealth <= 0)
         {
             if (player.stateMachine.currentState != PlayerStates.State.KnockBack) 

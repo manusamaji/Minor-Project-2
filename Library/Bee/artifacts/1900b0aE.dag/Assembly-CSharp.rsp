@@ -486,6 +486,7 @@
 "Assets/Scripts/Player/WallJumpAbility.cs"
 "Assets/Scripts/Player/WallSlideAbility.cs"
 "Assets/Scripts/Traps/Spikes.cs"
+"Assets/Scripts/ui/HealthBarControl.cs"
 -langversion:9.0
 /deterministic
 /optimize+

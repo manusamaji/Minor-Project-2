@@ -1,0 +1,637 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.3f1 (c7638eb16d91) revision 13067150'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jbman" at "2025-12-05T12:49:03.339821Z"
+OS: 'Windows 11  (10.0.26200) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16088 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-05T12:49:03Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/jbman/Music/Minor project 2/Minor-Project-2
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49378
+-licensingIpc
+LicenseClient-jbman
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/jbman/Music/Minor project 2/Minor-Project-2
+C:/Users/jbman/Music/Minor project 2/Minor-Project-2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23364]  Target information:
+
+Player connection [23364]  * "[IP] 172.22.45.46 [Port] 0 [Flags] 2 [Guid] 3985444901 [EditorId] 3985444901 [Version] 1048832 [Id] WindowsEditor(7,JBMANIK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [23364] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23364] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 6944, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              3f84979461204ab18be5a6fa95ea0444
+  Correlation Id:          eb35ebdf3a4345f6e3dcc4f3d07927ac
+  External correlation Id: 4882046420417169977
+  Machine Id:              lBmH1U6qQ6YbvZYLUoocAAaogTM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-jbman" (connect: 0.00s, validation: 0.00s, handshake: 0.14s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jbman-notifications" at "2025-12-05T12:49:03.4850071Z"
+[Licensing::Module] Licensing Background thread has ended after 0.15s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 362.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.3f1 (c7638eb16d91)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jbman/Music/Minor project 2/Minor-Project-2/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28a1)
+    Vendor:          NVIDIA
+    VRAM:            5920 MB
+    App VRAM Budget: 5152 MB
+    Driver:          32.0.15.9144
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469578139370-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 1.354041 seconds.
+- Loaded All Assemblies, in 19.745 seconds
+Native extension for LinuxStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 585 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.952 seconds
+Domain Reload Profiling: 23694ms
+	BeginReloadAssembly (13758ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (1036ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (1423ms)
+	LoadAllAssembliesAndSetupDomain (3505ms)
+		LoadAssemblies (13818ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3423ms)
+			TypeCache.Refresh (3420ms)
+				TypeCache.ScanAssembly (2804ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (3953ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3850ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3075ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (222ms)
+			ProcessInitializeOnLoadAttributes (424ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in 17.125 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.87 ms, found 4 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.2.3f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.154 seconds
+Domain Reload Profiling: 18260ms
+	BeginReloadAssembly (318ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (16650ms)
+		LoadAssemblies (15557ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1252ms)
+			TypeCache.Refresh (1125ms)
+				TypeCache.ScanAssembly (1094ms)
+			BuildScriptInfoCaches (103ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1155ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (983ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (221ms)
+			ProcessInitializeOnLoadAttributes (627ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7189 unused Assets / (5.1 MB). Loaded Objects now: 7752.
+Memory consumption went from 143.7 MB to 138.6 MB.
+Total: 11.736000 ms (FindLiveObjects: 0.597200 ms CreateObjectMapping: 0.544200 ms MarkObjects: 7.874500 ms  DeleteObjects: 2.718800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4127.789894 seconds.
+  path: Assets/Graphs
+  artifactKey: Guid(8302dfd0c0c751347af79d0159fedf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphs using Guid(8302dfd0c0c751347af79d0159fedf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cde31859c99a1606cef15d7ac27afa19') in 0.0131949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 175.842232 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/BossLevel/Background_1_BossLevel.png
+  artifactKey: Guid(29f48157c17512d49a63c865b187b3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/BossLevel/Background_1_BossLevel.png using Guid(29f48157c17512d49a63c865b187b3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '3061044d09379749aba8401e8efb2d1f') in 0.2453042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/BossLevel/Background_3_BossLevel.png
+  artifactKey: Guid(b789a25506115464892d502d95985ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/BossLevel/Background_3_BossLevel.png using Guid(b789a25506115464892d502d95985ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd73494f5882ef069f0c6e10e68a15d9a') in 0.0520841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/BossLevel/Background_2_BossLevel.png
+  artifactKey: Guid(1237180f55dc25f4c950ccbd5de61e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/BossLevel/Background_2_BossLevel.png using Guid(1237180f55dc25f4c950ccbd5de61e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5515b8db77a5e10ba31ea3787e86ce9') in 0.0491187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Packages/com.bezi.sidekick/Editor/Resources/Icons/Dark/bezi-connected.png
+  artifactKey: Guid(f5e7dc4996b7f4f1fb3cbd2f3313c757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.bezi.sidekick/Editor/Resources/Icons/Dark/bezi-connected.png using Guid(f5e7dc4996b7f4f1fb3cbd2f3313c757) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e99bf9e08508e3f24dd490ee252424a5') in 0.0642471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.782424 seconds.
+  path: Packages/com.bezi.sidekick/Editor/Resources/Icons/Dark/bezi-disconnected.png
+  artifactKey: Guid(70106c8c86fb348da8362e9056ec5eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.bezi.sidekick/Editor/Resources/Icons/Dark/bezi-disconnected.png using Guid(70106c8c86fb348da8362e9056ec5eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcdd85d5b7a2aa908b257c6b9dbec4ab') in 0.0546307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Packages/com.bezi.sidekick/Editor/Resources/Icons/Dark/bezi-icon.png
+  artifactKey: Guid(5158375bd617145448050205372e9925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.bezi.sidekick/Editor/Resources/Icons/Dark/bezi-icon.png using Guid(5158375bd617145448050205372e9925) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e5db69ddc49ec84355a87404e8cf888') in 0.0616724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.414848 seconds.
+  path: Packages/com.bezi.sidekick/Editor/Resources/Icons/Dark/bezi-paused.png
+  artifactKey: Guid(3b51cb133d20e4ce597f5fc641cdb9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.bezi.sidekick/Editor/Resources/Icons/Dark/bezi-paused.png using Guid(3b51cb133d20e4ce597f5fc641cdb9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '801eb0b2b74c58dda22f74adebabf527') in 0.0536643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/BossLevel/Boss/Boss_Energy_128x128.png
+  artifactKey: Guid(c9eb8797bc1424447999d74030a2c0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/BossLevel/Boss/Boss_Energy_128x128.png using Guid(c9eb8797bc1424447999d74030a2c0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3a597b5453dd5e26b04492f2a4149d7') in 0.1027458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/BossLevel/Boss/Boss_MeleeAttack_128x128.png
+  artifactKey: Guid(b9e56b0ebb54dca46838688def0fc8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/BossLevel/Boss/Boss_MeleeAttack_128x128.png using Guid(b9e56b0ebb54dca46838688def0fc8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7ad8ef69e514db6949f4735970a6fda') in 0.2031029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/BossLevel/Boss/Boss_Idle_128x128.png
+  artifactKey: Guid(d2f1ff03658845c4ea6eaf475e187fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/BossLevel/Boss/Boss_Idle_128x128.png using Guid(d2f1ff03658845c4ea6eaf475e187fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed9c46d9fe2c2deb6a043430cc436cc9') in 0.1029762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/BossLevel/Boss/Boss_RangeAttack_Phase2_128x128.png
+  artifactKey: Guid(04f3d1dfa8b39704dafb9504830bd4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/BossLevel/Boss/Boss_RangeAttack_Phase2_128x128.png using Guid(04f3d1dfa8b39704dafb9504830bd4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5a458dec6dc8c906fa84e3b9d8226b4') in 0.0935386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/BossLevel/Boss/Boss_Summon_128x128.png
+  artifactKey: Guid(23f13ba892d15c94da65978be67de9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/BossLevel/Boss/Boss_Summon_128x128.png using Guid(23f13ba892d15c94da65978be67de9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba098ecfe40c699c94fd497b23477101') in 0.0881822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/BossLevel/Boss/Boss_RangeAttack_Phase1_128x128.png
+  artifactKey: Guid(ff64478d270d6d74fb7ba77ab0f568e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/BossLevel/Boss/Boss_RangeAttack_Phase1_128x128.png using Guid(ff64478d270d6d74fb7ba77ab0f568e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25fe32f2f49dddd87ca77157c0020c1a') in 0.0837854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.004884 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Checkpoint/Checkpoint_Disable_16x32.png
+  artifactKey: Guid(baecf9766ec021b42997e849259937f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Checkpoint/Checkpoint_Disable_16x32.png using Guid(baecf9766ec021b42997e849259937f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c7c2b925e39add8029816ab7c42482a') in 0.0355129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Checkpoint/Checkpoint_Enable_16x32.png
+  artifactKey: Guid(fccfb9d3a31bea948b3acabbc65bd7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Checkpoint/Checkpoint_Enable_16x32.png using Guid(fccfb9d3a31bea948b3acabbc65bd7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48fbafe5c81769399c7aae9a28b970c9') in 0.0421766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.608093 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Weapons/ShootingEffects/Effect_Big_v2_22x18.png
+  artifactKey: Guid(824f76073bafe6847b719925c36fd37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Weapons/ShootingEffects/Effect_Big_v2_22x18.png using Guid(824f76073bafe6847b719925c36fd37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43a833850e9850be6968aeb110cec45a') in 0.0520396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Weapons/ShootingEffects/Effect_Small_v3_22x18.png
+  artifactKey: Guid(f990f5ba260105342bba9313ddf68fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Weapons/ShootingEffects/Effect_Small_v3_22x18.png using Guid(f990f5ba260105342bba9313ddf68fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10f64054677e00ad4141239471f6bbc8') in 0.0609175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Enemies/EnemyFlying/Enemy_Flying_Fly_24x24.png
+  artifactKey: Guid(ea2d663900da130488ed8bdaf12c2b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Enemies/EnemyFlying/Enemy_Flying_Fly_24x24.png using Guid(ea2d663900da130488ed8bdaf12c2b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9a5f106f2b90961ddc188f694c2e510') in 0.156303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Enemies/Enemy_Melee/Enemy_Melee_Attack_64x46.png
+  artifactKey: Guid(305d86a40eeb5654689c010fabb36bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Enemies/Enemy_Melee/Enemy_Melee_Attack_64x46.png using Guid(305d86a40eeb5654689c010fabb36bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b5f2b6d891edc89e3cd8589ae98a72e') in 0.0729838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Enemies/EnemyFlying/Enemy_Flying_Death_24x24.png
+  artifactKey: Guid(2c695264a04718a42ae5c01d822c1d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Enemies/EnemyFlying/Enemy_Flying_Death_24x24.png using Guid(2c695264a04718a42ae5c01d822c1d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef8e2b05da81f0b108200c6186bbdea3') in 0.0627667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.308033 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Enemies/Enemy_Melee/Enemy_Melee_Idle_64x46.png
+  artifactKey: Guid(da1555463f5f27441bd95b437b5e1a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Enemies/Enemy_Melee/Enemy_Melee_Idle_64x46.png using Guid(da1555463f5f27441bd95b437b5e1a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3c3dae22fc6c2247e94fcdb4405ae9f') in 0.0726727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Enemies/Enemy_Melee/Enemy_Melee_Idle_64x46.png
+  artifactKey: Guid(b837b212e342d30448e6a0c8e81110cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Enemies/Enemy_Melee/Enemy_Melee_Idle_64x46.png using Guid(b837b212e342d30448e6a0c8e81110cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11599473a2b7f143698a757c17e2732b') in 0.0666439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Enemies/EnemyRange/Enemy_Range_Death_30x34.png
+  artifactKey: Guid(78c2a01ac60c7c04ea0040bd1909c915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Enemies/EnemyRange/Enemy_Range_Death_30x34.png using Guid(78c2a01ac60c7c04ea0040bd1909c915) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9aeae390cbb16200ce549098c364eb22') in 0.1528046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Enemies/Enemy_Melee/Enemy_Melee_Move_64x46.png
+  artifactKey: Guid(5a7f9c06336fe2445a79924d3350b8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Enemies/Enemy_Melee/Enemy_Melee_Move_64x46.png using Guid(5a7f9c06336fe2445a79924d3350b8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13d5ff3e800f226c36eaf1586ed72558') in 0.0980255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Enemies/EnemySmall/Enemy_Small_Attack_40x30.png
+  artifactKey: Guid(8f6c876b1823b3b43b6911f393cbb0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Enemies/EnemySmall/Enemy_Small_Attack_40x30.png using Guid(8f6c876b1823b3b43b6911f393cbb0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a35c68b0b6f45acf2b1671ca2cf58379') in 0.0603914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Enemies/EnemySmall/Enemy_Small_Idle_40x30.png
+  artifactKey: Guid(eb0bf7637d57ab044921a46752ce5c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Enemies/EnemySmall/Enemy_Small_Idle_40x30.png using Guid(eb0bf7637d57ab044921a46752ce5c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5584371fd8636b774854ddca157ef782') in 0.0766542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Enemies/EnemySmall/Enemy_Small_Death_40x30.png
+  artifactKey: Guid(87d4896ea5d278a44a65dfd5018b4546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Enemies/EnemySmall/Enemy_Small_Death_40x30.png using Guid(87d4896ea5d278a44a65dfd5018b4546) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d3b412aedf0dfa501c6647258851b12') in 0.0872299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Levels/Level_1/Level_1_Background_1.png
+  artifactKey: Guid(5fb95e1c923eac44da1023710954e171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Levels/Level_1/Level_1_Background_1.png using Guid(5fb95e1c923eac44da1023710954e171) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8df2087c84b9b8234e5b68a0091aa88f') in 0.0540316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Levels/Level_1/Level_1_Background_2.png
+  artifactKey: Guid(6295b9ab5b7841040a19cd374ec9a5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Levels/Level_1/Level_1_Background_2.png using Guid(6295b9ab5b7841040a19cd374ec9a5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a6d17f2a1fd959aae7c24c2ae80dbd8') in 0.0482497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Levels/Level_1/Level_1_Background_2.png
+  artifactKey: Guid(e3a47684e924aea4f8dba9daf6944928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Levels/Level_1/Level_1_Background_2.png using Guid(e3a47684e924aea4f8dba9daf6944928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00bf2a5a3b6c23fe7d86d7e7d81180e4') in 0.0243622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Levels/Level_1/Level_1_Background_4.png
+  artifactKey: Guid(65d4be13c1c90554d996a1a29ee3f276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Levels/Level_1/Level_1_Background_4.png using Guid(65d4be13c1c90554d996a1a29ee3f276) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '792deb7ecb7747d8d5ed3d968c537129') in 0.0217272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Enemies/EnemySmall/Enemy_Small_Idle_40x30.png
+  artifactKey: Guid(9d91271c483bfd44ba3e837462802868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Enemies/EnemySmall/Enemy_Small_Idle_40x30.png using Guid(9d91271c483bfd44ba3e837462802868) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f8e7606628580dd9dc5d92cfbbf06db') in 0.0369141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Enemies/EnemySmall/Enemy_Small_Move_40x30.png
+  artifactKey: Guid(4342f846d7c8fe943b1eccb12c892108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Enemies/EnemySmall/Enemy_Small_Move_40x30.png using Guid(4342f846d7c8fe943b1eccb12c892108) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '453ed491dbeae7a8c199166ac57afa1e') in 0.0910975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.159656 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Platforms/Platforms_OneWay.png
+  artifactKey: Guid(89a8818af2cdf4c4ea7ecfd86b076836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Platforms/Platforms_OneWay.png using Guid(89a8818af2cdf4c4ea7ecfd86b076836) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30e4b17b5d1f74e2643feb15a21d1e29') in 0.0312899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063148 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Platforms/Platform_Boss_32x9.png
+  artifactKey: Guid(278ff8678c2559146a74492215504d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Platforms/Platform_Boss_32x9.png using Guid(278ff8678c2559146a74492215504d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6be6565440a49fb98e9153d4aed5a0ba') in 0.0382842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.301266 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Levels/Level_3/Level_3_Background_4.png
+  artifactKey: Guid(1f4b8d7ad2de0354dba4509446975cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Levels/Level_3/Level_3_Background_4.png using Guid(1f4b8d7ad2de0354dba4509446975cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34de323cedebc75b3d6e93e0dd0d815d') in 0.0434854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Levels/Level_3/Level_3_Template.png
+  artifactKey: Guid(2322f2c76f491fd4c8e5a60a494dd44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Levels/Level_3/Level_3_Template.png using Guid(2322f2c76f491fd4c8e5a60a494dd44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb3eff5ec94bfe00f45b281728e3f5b3') in 0.0683132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.247538 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Levels/Level_3/Level_3_Background_1.png
+  artifactKey: Guid(be76f98d0d82121478ade68b67760e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Levels/Level_3/Level_3_Background_1.png using Guid(be76f98d0d82121478ade68b67760e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96bf558181ce0fb5972304d6675d4829') in 0.0548101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Levels/Level_3/Level_3_Background_2.png
+  artifactKey: Guid(ffaf3b31643243d4499141625ad00b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Levels/Level_3/Level_3_Background_2.png using Guid(ffaf3b31643243d4499141625ad00b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4390ece47dd18902a1a2a49960f66d53') in 0.0582417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 720.004087 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Levels/Level_2/Level_2_Background_3.png
+  artifactKey: Guid(ad600816d1923544892a26da552d4ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Levels/Level_2/Level_2_Background_3.png using Guid(ad600816d1923544892a26da552d4ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c90976ddf1c8854314d737ead7249879') in 0.0363608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Levels/Level_2/Level_2_Background_4.png
+  artifactKey: Guid(97be9a9564d3efb44a334f9f977390dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Levels/Level_2/Level_2_Background_4.png using Guid(97be9a9564d3efb44a334f9f977390dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06493dfb29e9883162002a89d0e03069') in 0.0413415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Levels/Level_2/Level_2_Background_4.png
+  artifactKey: Guid(cedf84853edf00b49a8dc5c33db66f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Levels/Level_2/Level_2_Background_4.png using Guid(cedf84853edf00b49a8dc5c33db66f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6543a39712973c6700d8e28bc8ed2346') in 0.0178345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Levels/Level_1/Level_1_Template.png
+  artifactKey: Guid(9b9a03fa38910f74eb5a7b4d48bf59a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Sprites/Levels/Level_1/Level_1_Template.png using Guid(9b9a03fa38910f74eb5a7b4d48bf59a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b87456b7dea6892e3d91ffb2b2b675a') in 0.0271358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Player/Root Games- Unity 6 Game Dev Journey/Levels/Level_2/Level_2_Background_1.png
+  artifactKey: Guid(f8ae78fb44bc61b43b84fc5898564bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Root Games- Unity 6 Game Dev Journey/Levels/Level_2/Level_2_Background_1.png using Guid(f8ae78fb44bc61b43b84fc5898564bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b6572042a14c5a5ae8f1e4c51b24307') in 0.0478148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
